@@ -24,8 +24,15 @@
         <processorPath useClasspath="true" />
         <module name="testmybatis" />
       </profile>
+      <profile default="false" name="Annotation profile for com.giit.www.orderbook" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="com.giit.www.orderbook" target="1.8" />
       <module name="testmybatis" target="1.5" />
     </bytecodeTargetLevel>
   </component>
